@@ -19,5 +19,4 @@ Understand the dataset before analysis.
 4. What metrics exist?
 
 ## Queries
-
-(To be added as we learn)
+Queries will be added as I work through this section.
