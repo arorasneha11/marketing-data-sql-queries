@@ -3,7 +3,6 @@
 ## Goal
 
 Understand the dataset before starting analysis.
-
 ## Concepts
 
 - SELECT
@@ -21,11 +20,9 @@ Understand the dataset before starting analysis.
 ## Initial Observations
 
 ### Number of Columns
-
 20
 
 ### Potential Dimensions
-
 - CustomerID
 - Age
 - Gender
@@ -35,7 +32,6 @@ Understand the dataset before starting analysis.
 - AdvertisingTool
 
 ### Potential Measures
-
 - Income
 - AdSpend
 - ClickThroughRate
@@ -50,13 +46,9 @@ Understand the dataset before starting analysis.
 - LoyaltyPoints
 
 ### Potential Outcome Variables
-
 - Conversion
 
 ## Initial Hypotheses
-
-### Grain
-
 Each row appears to represent a customer associated with a marketing campaign.
 
 ### Available Information
@@ -68,7 +60,6 @@ Each row appears to represent a customer associated with a marketing campaign.
 - Conversion outcome
 
 ### Questions to Validate
-
 - Is CustomerID unique?
 - Is one customer associated with multiple campaigns?
 - Is Conversion binary (0/1)?
@@ -76,4 +67,17 @@ Each row appears to represent a customer associated with a marketing campaign.
 
 ## Findings
 
-(To be updated as hypotheses are validated)
+### Dataset Size
+
+- Total rows: 8,000
+
+### Validation Status
+
+| Question | Status | Finding |
+|---|---|---|
+| How many columns exist? | Complete | 20 columns |
+| How many records exist? | Complete | 8,000 rows |
+| Is CustomerID unique? | In Progress | To be validated |
+| Is one customer associated with multiple campaigns? | Not Started | To be validated |
+| Is Conversion binary (0/1)? | Not Started | To be validated |
+| Are AdSpend and ConversionRate customer-level or campaign-level metrics? | Not Started | To be validated |
