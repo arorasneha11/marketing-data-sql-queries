@@ -68,8 +68,12 @@ Each row appears to represent a customer associated with a marketing campaign.
 ## Findings
 
 ### Dataset Size
-
 - Total rows: 8,000
+
+### Customer Validation
+- CustomerID is unique.
+- The dataset contains 8,000 unique customers.
+- No duplicate customer records were identified.
 
 ### Validation Status
 
@@ -77,7 +81,7 @@ Each row appears to represent a customer associated with a marketing campaign.
 |---|---|---|
 | How many columns exist? | Complete | 20 columns |
 | How many records exist? | Complete | 8,000 rows |
-| Is CustomerID unique? | In Progress | To be validated |
-| Is one customer associated with multiple campaigns? | Not Started | To be validated |
+| Is CustomerID unique? | Complete | Yes, all 8,000 customers are unique |
+| Is one customer associated with multiple campaigns? | In Progress | Requires validation |
 | Is Conversion binary (0/1)? | Not Started | To be validated |
 | Are AdSpend and ConversionRate customer-level or campaign-level metrics? | Not Started | To be validated |
